@@ -39,7 +39,7 @@ jobs:
           heroku_app_name: dapomozhetmnebog
           heroku_email: krutoypan3@gmail.com
           usedocker: true
-          useforce: true
+          dontuseforce: false
 
       - name: tests
         id: run-newman
