@@ -37,9 +37,8 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: dapomozhetmnebog
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_email: krutoypan3@gmail.com
           usedocker: true
-          delay: 120
 
       - name: tests
         id: run-newman
