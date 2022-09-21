@@ -17,7 +17,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Get perm gradle
-        uses: sudo chmod +x gradlew
+        uses: sudo ./chmod +x gradlew
 
       - name: Setup gradle
         uses: gradle/gradle-build-action@v2
