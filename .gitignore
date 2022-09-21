@@ -551,7 +551,7 @@ Makefile*
 *.qm
 *.prl
 
-# Qt unit tests
+# Qt unit oganesyan.rsoi_lab.tests
 target_wrapper.*
 
 # QtCreator
@@ -1234,3 +1234,4 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+.jpb/persistence-units.xml
