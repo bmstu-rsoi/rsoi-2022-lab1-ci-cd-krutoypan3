@@ -18,6 +18,9 @@ idea {
         downloadSources = true
     }
 }
+group = "oganesyan.rsoi_lab"
+version = "1.0.0"
+java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
